@@ -1,4 +1,4 @@
-package com.example.produtos.util;
+package silva.evangelista.santos.wilsiman.galeriapublica;
 
 import android.content.Context;
 import android.graphics.Bitmap;
