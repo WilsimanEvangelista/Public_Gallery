@@ -40,8 +40,8 @@ public class ListViewFragment extends Fragment {
         LiveData<PagingData<ImageData>> liveData = mViewModel.getPageLv();
         liveData.observe(getViewLifecycleOwner(), new Observer<PagingData<ImageData>>() {
             @Override
-            public void onChanged(PagingData<ImageData> imageDataPagingData) {
-                listAdapter.submitData(getViewLifecycleOwner().getLifecycle(),objectPagingData);
+            public void onChanged(PagingData<ImageData> objectPagingData) {
+                listAdapter.submitData(getViewLifecycleOwner().getLifecycle(), objectPagingData);
             }
         });
 

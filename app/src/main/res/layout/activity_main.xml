@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="#6C0000"
-        app:itemBackground="#6C0000"
+        app:itemBackground="@color/black"
         app:itemIconTint="@color/white"
         app:itemTextColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
